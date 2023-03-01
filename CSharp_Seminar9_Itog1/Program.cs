@@ -21,7 +21,7 @@ void NaturalNumb (int n)
 }
 
 int number = ConsoleInputInt ("Введите натуральное число N: ");
-if (number < 0)
+if (number <= 0)
 {
     Console.Write($"Введенное число {number} не натуральное");
 }
